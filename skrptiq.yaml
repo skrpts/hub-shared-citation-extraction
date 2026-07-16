@@ -3,7 +3,7 @@ id: "b5d30e45-74f1-4660-bf28-01ab7be3af01"
 name: "citation-extraction"
 display_name: "Citation Extraction"
 description: "Identifies and formats citations from text"
-version: "1.0.2"
+version: "1.0.3"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -25,3 +25,17 @@ contents:
   documents: 0
   assets: 0
   total: 1
+
+security:
+  status: "pass"
+  scanned_at: "2026-07-16T13:32:50.220Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: []
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/citation-extraction/security"
